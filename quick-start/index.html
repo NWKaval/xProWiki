@@ -1,0 +1,901 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://natester26.github.io/xProWiki/quick-start/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Quick Start - xPro-v5 Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="deep-orange">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quick-start" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="xPro-v5 Wiki" class="md-header__button md-logo" aria-label="xPro-v5 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            xPro-v5 Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quick Start
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Spark-Concepts/xPro-V5" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Spark-Concepts/xPro-V5
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Quick Start
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../troubleshoot/" class="md-tabs__link">
+      Troubleshoot
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../firmware/" class="md-tabs__link">
+      Firmware
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="xPro-v5 Wiki" class="md-nav__button md-logo" aria-label="xPro-v5 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    xPro-v5 Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Spark-Concepts/xPro-V5" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Spark-Concepts/xPro-V5
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Quick Start</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Quick Start" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Quick Start
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="basic-hookup/" class="md-nav__link">
+        Basic Hookup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="wifi-connection/" class="md-nav__link">
+        Wifi Connection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="changing-settings/" class="md-nav__link">
+        Changing Settings
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshoot/" class="md-nav__link">
+        Troubleshoot
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../firmware/" class="md-nav__link">
+        Firmware
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#safety-statement" class="md-nav__link">
+    Safety Statement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-install-notes" class="md-nav__link">
+    Pre-Install Notes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24v-dc-input-wiring" class="md-nav__link">
+    24V DC Input Wiring
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stepper-motor-wiring" class="md-nav__link">
+    Stepper Motor Wiring
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-standard-limit-switches" class="md-nav__link">
+    Connecting Standard Limit Switches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-probe" class="md-nav__link">
+    Connect Probe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-tools" class="md-nav__link">
+    Connect Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="Connect Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dewalt-spindle" class="md-nav__link">
+    Dewalt Spindle
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#0-10v-analog-signal-vfd" class="md-nav__link">
+    0-10v Analog Signal / VFD
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-coolant-output" class="md-nav__link">
+    Connect Coolant Output
+  </a>
+  
+    <nav class="md-nav" aria-label="Connect Coolant Output">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connect-led-ring" class="md-nav__link">
+    Connect LED Ring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-dust-extraction-via-iot-relay" class="md-nav__link">
+    Connect Dust Extraction via IoT Relay
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-24vdc-air-solonoid" class="md-nav__link">
+    Connect 24vDC Air Solonoid
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#micro-limit-switch-wiring" class="md-nav__link">
+    Micro Limit Switch Wiring
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zxyz-touch-probe-wiring" class="md-nav__link">
+    Z/XYZ Touch Probe Wiring
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#emergency-stop-door-sensor" class="md-nav__link">
+    Emergency Stop / Door Sensor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#machine-configuration-settings" class="md-nav__link">
+    Machine configuration settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fine-tunin-motor-direction-and-homing" class="md-nav__link">
+    Fine-tunin, motor direction and homing
+  </a>
+  
+    <nav class="md-nav" aria-label="Fine-tunin, motor direction and homing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inverting-motor-direction" class="md-nav__link">
+    Inverting Motor direction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inverting-the-homing-direction" class="md-nav__link">
+    Inverting the homing direction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jogging" class="md-nav__link">
+    Jogging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#probing-with-the-xyz-probe" class="md-nav__link">
+    Probing with the XYZ probe
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xpro-v5-laser-control" class="md-nav__link">
+    xPRO V5 Laser Control
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="quick-start">Quick Start</h1>
+<h2 id="safety-statement">Safety Statement</h2>
+<hr />
+<p>The author of this document is not liable or responsible for any accidents, injuries, equipment damage, property damage, loss of money or loss of time resulting from improper use of electrical or mechanical or software products.</p>
+<p>Assembling electrical and mechanical CNC machine components like power supplies, motors, drivers or other electrical and mechanical components involves dealing with high voltage AC (alternating current) or DC (direct current) and other hazardous items which can be extremely dangerous and needs high attention to detail, experience, knowledge of software, electricity, electro-mechanics and mechanics.</p>
+<p><strong>BEFORE MAKING ANY CONNECTIONS OR DISCONNECTIONS POWER MUST BE REMOVED FROM THE DEVICE AND THE CONTROLLER. FAILURE TO DO SO WILL VOID ANY AND ALL WARRANTIES.</strong></p>
+<p>Before starting please read through all the instructions.</p>
+<h2 id="pre-install-notes">Pre-Install Notes</h2>
+<hr />
+<ul>
+<li>Wire color codes or cable color code charts for both AC and DC are classified based on national standards for each region. You may find different colors in different countries. However, we like to use as much as we can specify colors for specific purposes, such as Red for 24V DC and Black for GND. Having this good practice will help you to troubleshoot possible issues that might occur in the future.</li>
+<li>Always use shielded cable for motors and drivers, this will minimize significantly electromagnetic interference, in consequence, this will permit you to run a job without any problem.</li>
+<li><strong>NEVER</strong> connect or disconnect any wire while power is applied. Failure to do the above will result in damage to the stepper drivers. <strong>ALWAYS</strong> disconnect power before making any connections or disconnections.</li>
+</ul>
+<h2 id="24v-dc-input-wiring">24V DC Input Wiring</h2>
+<hr />
+<p>If you received the xPro V5 Controller bundle with a Meanwell 24V power supply, wire your system as shown below: Connect V- from the power supply to GND on the xPro and V+ from the power supply to +24V on the xPro. The mains voltage must be wired by a licensed electrician or similarly qualified individual.</p>
+<p><img alt="Meanwell power supply connected to XproV5" src="../assets/images/meanwell.jpg" /></p>
+<p>Before connecting your power supply to mains power, it is critical that you check and set the <a href="https://i.stack.imgur.com/zWdO5.jpg">115v/230v Switch</a> on your Power Supply.</p>
+<h2 id="stepper-motor-wiring">Stepper Motor Wiring</h2>
+<hr />
+<p><strong>By default the motor current is set for Nema23, 2.8A motors - verify your motor max current and adjust the (ADD LINK current settings) if needed. Your motors should run warm to the touch.</strong></p>
+<p>Warning: Never connect/disconnect motors to a powered-up controller. Always turn off power before connecting/disconnecting accessories to/from your xPro</p>
+<ul>
+<li>How to: <a href="https://www.youtube.com/watch?v=S0pGKgos498">verify coil wires</a></li>
+<li>Simple verification of 4 wire stepper motors:<ul>
+<li>Using a multi-meter, resistance Set the Ohmmeter to the lowest resistance scale.</li>
+<li>Attach one of the wires to the meter and, in turn, check each of the remaining three</li>
+<li>Mark the wire that gave a reading and mark the first wire you started with (coil A)</li>
+<li>The remaining two wires will be coil B</li>
+</ul>
+</li>
+</ul>
+<p>Connect stepper motor wires to the supplied <a href="https://media.digikey.com/photos/FCI%20Photos/20020004-D031B01LF.jpg">3.81mm connectors</a> and plug in to the corresponding receptacles on the xPro-V5. Wire the above identified coil A across the A+ and A- terminal, wire coil B across the B+ and B- terminals.</p>
+<p><img alt="Steppers connected to xProV5" src="../assets/images/nema23-reversed-y2.jpg" /></p>
+<p>NOTE: switching the polarity of either (one) coil will reverse the stepper's direction - also the color codes shown below may not apply to your particular Motors. <em>This is used for machines with ganged axis' where the motors face opposite directions.</em></p>
+<h2 id="connecting-standard-limit-switches">Connecting Standard Limit Switches</h2>
+<hr />
+<p>The xPRO-V5 limit switch input uses a 3 pin connector which is provided with the controller. Connect the probe to the probe port as shown below: (connect one lead into GND and the other to SIG. Leave the middle pin unconnected)</p>
+<p><img alt="Limiy wire connected to xProV5" src="../assets/images/limit_wire.jpg" /></p>
+<p><strong><em>Warning: Incorrect wiring can short V+ to GND causing damage to your controller: Double check wiring before powering on</em></strong></p>
+<p><img alt="Microswitches connected to xProV5" src="../assets/images/regular-microswitches.jpg" /></p>
+<p>Note: The use of a 3-wire inductive proximity switch SN-04-N(NO) or SN-04-N2(NC) may also be used. Standard inductive proximity switch wiring is brown = V+, blue = gnd, and black = signal (verify using the manufacturer's data sheet). Most inductive NPN NO sensors require 10 to 30 volts to operate; though most sensor's may still work using 5V, it is still recommended that you adjust the limit-switch logic voltage select jumper to 24V. Thus 24v is connected to the brown V+ and ground connected to the blue. Click HERE for more information</p>
+<h2 id="connect-probe">Connect Probe</h2>
+<hr />
+<p>When wiring the xPRO-V5 to an unpowered touch probe, connect one wire to GND and the other to SIG; <strong>be sure to leave the middle pin unconnected</strong>, otherwise permanent damage may result</p>
+<p><img alt="Probe wire connected to xProV5" src="../assets/images/probe_wire.jpg" /></p>
+<p><img alt="z touchplate connected to xProV5" src="../assets/images/z-touchplate2.jpg" /></p>
+<p><strong><em>Please be sure to double-check your wiring before plugging in all accessories!</em></strong> When connecting a powered probe, please refer to the diagram below:</p>
+<p><img alt="xyz probe connected to xProV5" src="../assets/images/xyzprobe-wiring.jpg" /></p>
+<h2 id="connect-tools">Connect Tools</h2>
+<hr />
+<h3 id="dewalt-spindle">Dewalt Spindle</h3>
+<hr />
+<p>You can install an IOT Relay to control your spindle using Gcode commands</p>
+<p><img alt="iot relay with xProV5" src="../assets/images/iotrelay.jpg" /></p>
+<h3 id="0-10v-analog-signal-vfd">0-10v Analog Signal / VFD</h3>
+<hr />
+<p>Spark Concepts xPro-V5 includes a 0-10v Analog Signal Voltage output that can be used to control spindles/other toolheads that need a 0-10v signal to run.</p>
+<p>Note: This is a low level logic Signal voltage, it should not be used to drive anything directly. This signal should be connected to an external drive system, for example a VFD or a DC Spindle Controller.</p>
+<p>To use the signal, connect between the GND and 0-10v pins on the toolhead plug as shown.</p>
+<p>Calibrate output voltage TIP: You may need to fine tune the output to be exactly 10v:</p>
+<p>Send an M3 S12000 to the controller (12000 = default Grbl configuration, or send S=what you have set for $30 - Max spindle speed, RPM) Measure the voltage between GND and the 0-10v Terminal Use a small flat head screwdriver to adjust the 0-10v Fine Tuning Adjustment until the output is exactly 10.0v This will ensure that command Spindle RPM is as close to the actual as possible - M5 command turns the spindle output off</p>
+<p><img alt="0 to 10 volts on xProV5" src="../assets/images/0-10v.jpg" /></p>
+<h2 id="connect-coolant-output">Connect Coolant Output</h2>
+<hr />
+<p>The Coolant output is primarily used to control chip-evacuation, dust-extraction or cutting fluid systems, but can also be creatively repurposed for other switching requirements.</p>
+<p>It can be controlled with M-Codes:</p>
+<pre><code>M8  # Turns On
+</code></pre>
+<pre><code>M9  # Turns Off
+</code></pre>
+<p>Electrical Specifications:</p>
+<ul>
+<li>Voltage: jumper select - 24v(default) or 5v</li>
+<li>Max Current: 3A (24v only)</li>
+<li>Suitable for inductive loads (24v only)</li>
+</ul>
+<h3 id="connect-led-ring">Connect LED Ring</h3>
+<hr />
+<p>You can use the Coolant output to switch any other 24v device as well, as an example, you can connect a Spindle LED Ring as shown to put it under M-Code control (for example if you want a Job to turn the LED ring on at the start and off at the end, you can add an M8 to the header and an M9 to the footer of your g-code)</p>
+<p><img alt="Coolant ring connected to xProV5" src="../assets/images/coolant-led-ring.jpg" /></p>
+<h3 id="connect-dust-extraction-via-iot-relay">Connect Dust Extraction via IoT Relay</h3>
+<hr />
+<p>You can use our IoT Relay Power Strip to control a Vacuum for dust extraction</p>
+<p><img alt="Dust Extraction connected to xProV5" src="../assets/images/coolant-iot-vacuum.jpg" /></p>
+<h3 id="connect-24vdc-air-solonoid">Connect 24vDC Air Solonoid</h3>
+<hr />
+<p>You can switch 24v Solenoids using the Coolant output. Typically you'd use this configuration in-line between an Air-compressor and a Nozzle pointed at the endmill. Compressed air blowing on the endmill will help evacuate chips from the cut, and keep the endmill cool</p>
+<p><img alt="Air solonoid connected to xProV5" src="../assets/images/coolant-solenoid.jpg" /></p>
+<h2 id="micro-limit-switch-wiring">Micro Limit Switch Wiring</h2>
+<hr />
+<p>Connect the Blue lead into GND and the white lead to SIG. Leave the middle pin blank.</p>
+<h2 id="zxyz-touch-probe-wiring">Z/XYZ Touch Probe Wiring</h2>
+<hr />
+<p>The xPRO-V5 uses a 3 pin connector which is provided with the controller.</p>
+<p>To connect the xPRO-V5 to the touch probe, connect the red wire to GND and the black wire to SIG using the provided green EDG connector. Leave the middle pin unconnected.</p>
+<p>Connect the probe to the probe port as shown below:</p>
+<p>To configure the XYZ probe in CNCjs <a href="https://makerhardware.net/wiki/doku.php?id=add_on_packs:xyz_touch_probe">click here</a></p>
+<h2 id="emergency-stop-door-sensor">Emergency Stop / Door Sensor</h2>
+<hr />
+<p>Your emergency stop switch can be wired in 2 ways. The first way is to be wired by an electrician in line with your mains lead to the 24V power supply or as a pause button for the xPRO.</p>
+<p>The guide below shows the pause/hold method with our Normally Closed Emergency stop switches (NC).</p>
+<p>Ensure that the jumper in the xPRO-V5 is in the disabled (default) position. Wiring it this way will pause the program when activated. To use our NC switches with the xPRO-V5, flash your xPRO with the <code>CNC_xPRO_V5_XYYZ_PWM_NC.bin</code> located in the main <a href="https://github.com/Spark-Concepts/xPro-V5/tree/main/Firmware">firmware repository</a>. To flash this firmware, refer to the <a href="../firmware/">guide</a>.</p>
+<h2 id="machine-configuration-settings">Machine configuration settings</h2>
+<hr />
+<p>Setting up your machine is quite straightforward. Courtesy of <a href="https://www.makerstore.com.au/">makerstore.au</a> Below is a set of configuration files for each of their machine kits. These files contain their recommended settings for each machine from the working area to the motor current.</p>
+<p>The quickest and easiest method to flash your controller with the recommended settings is by using a macro. The example below will use a WorkBee 1000 x 1000mm with High Torque motors. For now, minimize CNCjs.</p>
+<ol>
+<li>
+<p>download the master configuration <a href="">here add link</a>. Follow the guide below:</p>
+<ul>
+<li>Unzip the Master Config file. In this config file is a number of folders corresponding to various machines. If you have a custom machine or a different brand of machine, contact us and our technicians will be able to assist you with your machine.</li>
+<li>Navigate to the folder containing the brand of the machine series you own. For example, if you own a WorkBee 1000 x 1000mm kit, navigate to the WorkBee folder.</li>
+<li>Locate the configuration file of the machine that you have. Take note of the motors attached to your machines (High Torque or Standard Torque).</li>
+</ul>
+<p><img alt="Select workbee file" src="../assets/images/cncjs_-_machine_sel.jpg#center" /></p>
+<ul>
+<li>Open the file and select all of its contents and COPY them.</li>
+</ul>
+<p><img alt="Select contents" src="../assets/images/cncjs_select_contents.png#center" /></p>
+<ul>
+<li>Open CNCjs and navigate to the right-hand side of the program. Locate the macro widget. Select the + icon highlighted in green to add a macro.</li>
+<li>PASTE the contents of the configuration file into the Macro Commands field and click OK.</li>
+</ul>
+<p><img alt="Create new macro" src="../assets/images/cncjs_setup_macro-2.png#center" /></p>
+<ul>
+<li>The macro will now look like this:</li>
+</ul>
+<p><img alt="New macro preview" src="../assets/images/cncjs_finish_macro.png#center" /></p>
+</li>
+<li>
+<p>To flash your controller with these new settings, make sure that the xPRO-v5 is still connected via USB and click the play button on the macro widget. The following window will show.</p>
+<p><img alt="Run macro window" src="../assets/images/cncjs_run_macro.png#center" /></p>
+</li>
+<li>
+<p>Clicking Run will flash the controller with the machine settings. You will only need to do this once. You may edit the macro if there are certain changes you wish to implement.</p>
+<p>A successful flash as shown below will show:</p>
+<p><img alt="Successful flash window" src="../assets/images/cncjs_successful_flash.png#center" /></p>
+</li>
+</ol>
+<h2 id="fine-tunin-motor-direction-and-homing">Fine-tunin, motor direction and homing</h2>
+<hr />
+<h3 id="inverting-motor-direction">Inverting Motor direction</h3>
+<hr />
+<h3 id="inverting-the-homing-direction">Inverting the homing direction</h3>
+<hr />
+<h3 id="jogging">Jogging</h3>
+<hr />
+<h3 id="probing-with-the-xyz-probe">Probing with the XYZ probe</h3>
+<hr />
+<h2 id="xpro-v5-laser-control">xPRO V5 Laser Control</h2>
+<hr />
+<p><strong><em>Laser safety goggles MUST be worn whenever the laser unit’s power supply is turned on.</em></strong></p>
+<p>CNCjs is recommended for controlling the laser. You may generate the gcode from GRBL laser and then open the gcode in CNCjs It is recommended to wear your safety glasses whenever your laser module has its power supply turned on.</p>
+<p>The 2.5W and 15W diode lasers are built for a variety of custom laser applications so custom wiring will be required. These laser kits can be adapted for use in CNC applications with longer cables and custom mounting hardware.</p>
+<p>To connect the laser to the Maker Shield, you will only need to connect the signal wires from the laser control board to the Maker Shield controller. All other connections are already pre-done. Locate the TTL signal port circled in orange as shown below:</p>
+<p>TTL+ connects to the PWM connector and TTL- connects to GND on the TOOLHEAD connector port as illustrated below. The lime green wire corresponds to TTL- (Black wire) and the red wire corresponds to TTL+.</p>
+<p>Flash the xPRO with the appropriate firmware.</p>
+<ul>
+<li><a href="https://www.makerstore.com.au/download/software/CNCxPROv5_XYYZ_NC_Laser_2.bin">Normally Closed Emergency Stop Switch</a></li>
+<li><a href="https://www.makerstore.com.au/download/software/CNCxPROv5_XYYZ_NO_Laser.bin">Normally Open Emergency Stop Switch</a> In the CNCjs software, you can enable the laser mode by typing the following commands in the console:<pre><code>$Spindle/Type=Laser
+$Gcode/LaserMode=ON
+$31=1
+</code></pre>
+</li>
+</ul>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="basic-hookup/" class="md-footer__link md-footer__link--next" aria-label="Next: Basic Hookup" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Basic Hookup
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes"], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
