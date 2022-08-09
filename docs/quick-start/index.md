@@ -24,3 +24,6 @@ If you received the xPro V5 Controller bundle with a Meanwell 24V power supply, 
 ![Meanwell power supply connected to XproV5](/assets/images/meanwell.jpg)
 
 Before connecting your power supply to mains power, it is critical that you check and set the [115v/230v Switch](https://i.stack.imgur.com/zWdO5.jpg) on your Power Supply.
+
+## Stepper Motor Wiring
+
