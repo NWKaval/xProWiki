@@ -1,10 +1,11 @@
-site_name: xPro-v5
+site_name: xPro-v5 Wiki
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.indexes
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -25,7 +26,14 @@ theme:
         name: Switch to light mode
 nav:
   - Home: index.md 
-  - Quick Start: quickStart.md
+  - Quick Start: 
+    - quick-start/index.md
+    - Basic Hookup: quick-start/basic-hookup.md
+    - Wifi Connection: quick-start/wifi-connection.md
+    - Changing Settings: quick-start/changing-settings.md
   - Troubleshoot: troubleshoot.md
+  - Firmware: firmware.md
 repo_url: https://github.com/Spark-Concepts/xPro-V5
 repo_name: Spark-Concepts/xPro-V5
+edit_uri: ""
+
